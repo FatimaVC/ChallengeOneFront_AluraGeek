@@ -1,0 +1,11 @@
+{
+  "name": "challengeonealurageek",
+  "version": "1.0.0",
+  "description": "Gestión de productos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fatima Villegas",
+  "license": "ISC"
+}
