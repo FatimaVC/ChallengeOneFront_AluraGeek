@@ -1,21 +1,36 @@
-### <div align="center"> &#128274; &nbsp; Challenge ONE Principiante en programación. &#128274;</p>
+### <div align="center"> &#128274; &nbsp; Challenge ONE Alura Geek. &#128274;</p>
 
 #### <p align="center"> Realizado por Oracle y Alura LATAM </p>
 
 ### <div align="center">¿De qué trata este challenge? &nbsp; &#129300; </div>
 
-#### <p>Encriptador de texto realizado para el challenge de Alura Latam - Oracle Next Education, el desafio consta en construir un encriptador de texto para que el usuario ingrese una frase y devuelva la misma encriptada, y a su vez la frase encriptada se pueda desencriptar.</p>
+#### <p>Historia
 
-### <p> &#128161; DESCRIPCIÓN</p>
+La empresa AluraGeek necesita llegar a más clientes y aumentar su nivel de ventas, por lo que quieren implementar un e-commerce, llevar a la empresa al siguiente nivel y volverse más digital.
 
-### <p> &#128273; &nbsp; Las "llaves" de encriptación que utilizaremos son las siguientes: </p>
+Para ello están pidiendo nuestra ayuda como desarrolladores, el e-commerce debe contener los siguientes requisitos:
+
+Una página de inicio que contiene un botón de inicio de sesión y un motor de búsqueda de productos ofrecidos por la empresa.
+
+Un banner que contenga descuentos, promociones o informaciónes relevante del momento.
+
+Una galería con información del producto, como imagen, nombre del producto, precio y un enlace a la página de descripción del producto.
+
+Una página de producto que contiene la imagen, el nombre, la descripción y el precio.
+
+Un pie de página con un formulario de contacto y otras informaciónes relevantes.
+
+Un formulário de iniciar sesión para autenticar a los usuarios que quieran acceder al menu administrador.
+
+Menú de administrador para que puedan agregar, editar, buscar o eliminar productos de la tienda..</p>
+
+### <p> &#128161; ¿Cómo usarlo</p>
+
+### <p> &#128273; &nbsp; El "usuario y clave" que utilizaremos para el iniciar sección y poder administrar los productos: </p>
 
 ```
-- La letra "a" es convertida a "ai".
-- La letra "e" es convertida a "enter".
-- La letra "i" es convertida a "imes".
-- La letra "o" es convertida a "ober"
-- La letra "u" es convertida a "ufat"
+- El usuario es "ana@gmail.com".
+- La clave de acceso es "1234aB".
 ```
 ### <p> &#9989; &nbsp; Requisitos </p>
 ```
