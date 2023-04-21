@@ -1,7 +1,7 @@
-const listaUsuarios = () => fetch('http://localhost:3000/usuarios').then(respuesta => respuesta.json());
+const listaUsuarios = () => fetch('https://challengeonefront-alurageek.onrender.com/usuarios').then(respuesta => respuesta.json());
 
 const crearUsuario = (correo, password) => {
-    return fetch('http://localhost:3000/usuarios', {
+    return fetch('https://challengeonefront-alurageek.onrender.com/usuarios', {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -12,7 +12,7 @@ const crearUsuario = (correo, password) => {
 
 //Detalles del producto por ID
 const detalleUsuario = async (id) => {
-  return fetch(`http://localhost:3000/usuarios/${id}`).then( respuesta => respuesta.json());
+  return fetch(`https://challengeonefront-alurageek.onrender.com/usuarios/${id}`).then( respuesta => respuesta.json());
 };
 export const usuariosService = {
     crearUsuario,
