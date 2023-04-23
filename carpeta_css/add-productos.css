@@ -523,7 +523,6 @@
         width: 119%;
         border-radius: 4px;
         margin-left: -11%;
-
     }
 }
 
@@ -584,5 +583,76 @@
         width: 112%;
         border-radius: 4px;
         margin-left: -7.3%;
+    }
+}
+
+@media (max-width:360px) {
+
+    .formulario-producto__titulo {
+        margin-left: -24%;
+        font-size: 2rem;
+        margin-top: -8%;
+    }
+
+    .imagen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        width: 90%;
+        margin-left: 16%;
+        margin-bottom: 5%;
+    }
+
+    .imagen-drop {
+        width: 120%;
+        height: 273px;
+        background-color: #fdfdfd;
+        border: 2px dashed #C8C8C8;
+        margin-left: -32%;
+    }
+
+    .texto_o {
+        margin-left: -35%;
+        margin-top: 5%;
+    }
+
+    .imagen-boton {
+        margin-left: 43%;
+        width: 70%;
+        margin-bottom: 5%;
+    }
+
+    .agregar__imagen__boton__texto {
+        font-size: 1.4rem;
+        position: relative;
+        left: -46%;
+        margin-top: 5%;
+    }
+
+    .input-container {
+        width: 109.5%;
+        border-radius: 4px;
+        margin-left: -4.9%;
+    }
+
+    .formulario-login__select p {
+        font-size: 1.4rem;
+        margin-left: -5%;
+    }
+
+    .select-css {
+        display: inline-block;
+        width: 100%;
+        margin-left: -2.9%;
+        position: relative;
+        top: 10%;
+    }
+
+    .textarea-container {
+        width: 107%;
+        border-radius: 4px;
+        margin-left: -3.3%;
     }
 }

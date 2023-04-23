@@ -1,5 +1,5 @@
 import { clientServices } from "../services/client-service.js";
-import { MostrarProductos} from "./mostrar.productos.controller.js";
+import { MostrarProductos} from "./mostrartodos.controller.js";
 
 //Capturando la seccion para mostrar los productos
 const productosAdmin = document.querySelector("[data-productos-admin]");

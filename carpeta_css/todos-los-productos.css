@@ -225,6 +225,31 @@
     }
 }
 
+@media (max-width:360px) {
+
+    .productos__head__titulo-principal {
+        margin-left: 42px;
+        margin-top: -8%;
+        font-size: 1.8rem;
+    }
+
+    .info__encabezado h2 {
+        margin-left: 12%;
+        margin-bottom: 15px;
+    }
+
+    .cards-container {
+        margin-left: 15.5%;
+        margin-top: -1%;
+    }
+    
+    .img-producto {
+        width: 132px;
+        height: 150px;
+    }
+
+}
+
 @media (max-width:350px) {
 
     .productos__head__titulo-principal {
