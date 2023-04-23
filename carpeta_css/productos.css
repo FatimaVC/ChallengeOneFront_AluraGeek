@@ -310,7 +310,6 @@
     .productos__head__titulo-principal {
         margin-left: 4vh;
         margin-top: .8%;
-
     }
 
     .info__encabezado {
@@ -335,7 +334,7 @@
     .arrow-icon {
         /* margin-right: 1vh; */
         position: relative;
-        top: -6vh;
+        top: -3vh;
         left: -22%;
     }
 
