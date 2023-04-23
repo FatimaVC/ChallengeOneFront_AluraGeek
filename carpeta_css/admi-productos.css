@@ -80,8 +80,9 @@
 
 @media (max-width: 1024px) {
     .productos__head__titulo-principal {
-        margin-left: 8%;
-        margin-top: 2%;
+        margin-left: 8.5%;
+        margin-top: 4%;
+        font-size: 2.5rem;
     }
 
     .cards-container {
@@ -135,7 +136,7 @@
     .info__encabezado h2 {
         margin-left: 11.5%;
         margin-top: -3%;
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
 
@@ -153,15 +154,20 @@
 
 }
 
-@media (max-width:375px) {
+@media (max-width:425px) {
     .info__encabezado {
         flex-direction: column;
     }
 
+    .search-icon-mobile {
+        display: block;
+        margin-right: 4%;
+    }
+
     .productos__head__titulo-principal {
-        margin-left: 46px;
+        margin-left: 50px;
         margin-top: -5%;
-        font-size: 1.4rem;
+        font-size: 1.9rem;
     }
 
     .info__encabezado h2 {
@@ -170,25 +176,23 @@
     }
 
     .cards-container {
-        /* margin-left: 13.5%;
-        margin-top: 2%; */
-        gap: 8.5%;
+        gap: 15.5%;
         place-content: initial;
         margin-left: 13%;
     }
 
-    .shopping-cart{
-        margin-top: -8%;
-    }
-
-    .img-container{
+    .img-container {
         width: 135px;
     }
 
     .img-producto {
-        width: 148px;
+        width: 160px;
         height: 160px;
         gap: 16px;
+    }
+
+    .shopping-cart {
+        margin-top: -8%;
     }
 
     .trash-icon {
@@ -202,9 +206,82 @@
         left: 103px;
         top: -140px;
     }
-
-    footer {
-        border-bottom: 30px solid #f5f5f5;
-    }
 }
 
+@media (max-width:375px) {
+  
+    .search-icon-mobile {
+        display: block;
+        margin-right: 3%;
+    }
+
+    .productos__head__titulo-principal {
+        margin-left: 48px;
+        margin-top: -5%;
+        font-size: 1.6rem;
+    }
+
+    .cards-container {
+        gap: 9.5%;
+        place-content: initial;
+        margin-left: 14%;
+    }
+
+    .img-producto {
+        width: 145px;
+        height: 160px;
+        gap: 16px;
+    }
+
+    .trash-icon {
+        position: relative;
+        right: -95px;
+        top: -140px;
+    }
+
+    .pencil-icon {
+        position: relative;
+        left: 98px;
+        top: -140px;
+    }
+
+}
+
+@media (max-width:350px) {
+  
+    .search-icon-mobile {
+        display: block;
+        margin-right: 3%;
+    }
+
+    .productos__head__titulo-principal {
+        margin-left: 45px;
+        margin-top: -5%;
+        font-size: 1.5rem;
+    }
+
+    .cards-container {
+        gap: 6.5%;
+        place-content: initial;
+        margin-left: 14%;
+    }
+
+    .img-producto {
+        width: 138px;
+        height: 160px;
+        gap: 16px;
+    }
+
+    .trash-icon {
+        position: relative;
+        right: -85px;
+        top: -140px;
+    }
+
+    .pencil-icon {
+        position: relative;
+        left: 90px;
+        top: -140px;
+    }
+
+}

@@ -9,7 +9,7 @@ export const MostrarProductos = (nombre, precio, descripcion, imagen, id, catego
    <div class="shopping-cart">
            <p class="cart-detail">${nombre}</p>
            <p class="cart-price">${precio}</p>
-           <a href="./screens/info-producto.html?id=${id}">Ver producto</a>
+           <a href="../screens/info-producto.html?id=${id}">Ver producto</a>
    </div>
  </div`
  cardProducto.innerHTML = contenido;

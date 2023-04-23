@@ -23,7 +23,7 @@
 .logo-ver {
   width: 176px;
   height: 50px;
-  margin-left: 5%;
+  margin-left: 8%;
 }
 
 .logosearch {
@@ -32,10 +32,10 @@
   margin-left: -5%;
 }
 
-.logadmi {
+.logoadmi {
   width: 176px;
   height: 50px;
-  margin-left: -5%;
+  margin-left: -4%;
 }
 
 .header-nav-left {
@@ -103,8 +103,6 @@
   }
 
   .logoindex {
-    /* width: 176px;
-    height: 50px; */
     margin-left: -10%;
   }
 
@@ -113,7 +111,7 @@
   }
 
   .logo-ver {
-    margin-left: 15%;
+    margin-left: 10%;
   }
 
   .addlogo {
@@ -122,6 +120,10 @@
 
   .logoheader {
     margin-left: -14%;
+  }
+
+  .logoadm{
+    margin-left: 1%;
   }
 }
 
@@ -150,7 +152,7 @@
   .logo-ver {
     width: 156px;
     height: 40px;
-    margin-left: 6%;
+    margin-left: -9%;
   }
 
   .logohome {
@@ -165,12 +167,11 @@
     margin-left: 0%;
   }
 
-  .logadmi {
+  .logoadmi {
     width: 156px;
     height: 40px;
-    margin-left: 0%;
+    margin-left: 2%;
   }
-
 
   .addlogo {
     width: 156px;
@@ -202,10 +203,10 @@
   .logotodos {
     width: 130px;
     height: 40px;
-    margin-left: -2%;
+    margin-left: 1%;
   }
 
-  .logadmi {
+  .logoadmi {
     width: 130px;
     height: 40px;
     margin-left: -2%;
@@ -261,6 +262,64 @@
   .logotodos {
     width: 130px;
     height: 40px;
+    margin-left: -1%;
+  }
+  
+  .logoadmi{
+    width: 130px;
+    height: 40px;
+    margin-left: 0%;
+  }
+
+  .logohome {
+    width: 130px;
+    height: 40px;
+    margin-left: -1%;
+  }
+
+  .logo-ver {
+    width: 130px;
+    height: 40px;
+    margin-left: -8%;
+  }
+
+  .logo-error {
+    width: 130px;
+    height: 40px;
+    margin-left: -1%;
+  }
+
+  .header-nav {
+    width: 100%;
+    padding: 16px;
+  }
+
+  .header-input-container {
+    display: none;
+  }
+
+  .search-icon-mobile {
+    display: block;
+    margin-right: 3%;
+  }
+}
+@media (max-width: 350px) {
+  .logoindex {
+    width: 120px;
+    height: 40px;
+    margin-left: -7%;
+  }
+
+  .addlogo {
+    width: 120px;
+    height: 40px;
+    margin-left: 10%;
+  }
+
+  .logosearch,
+  .logotodos {
+    width: 120px;
+    height: 40px;
     margin-left: 2%;
   }
   
@@ -300,5 +359,6 @@
   .search-icon-mobile {
     display: block;
     margin-right: 3%;
+    margin-top: -1.5%;
   }
 }

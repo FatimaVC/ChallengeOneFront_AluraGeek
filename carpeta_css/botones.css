@@ -1,9 +1,5 @@
 /*Botones del header*/
 .btn-login {
-    /* border: 1px solid #2A7AE4;
-    color: #2A7AE4;
-    padding: .7rem 2.4rem;
-    border-radius: 5px; */
     width: 182px;
     height: 51px;
     border: 1px solid #2A7AE4;
@@ -15,6 +11,10 @@
     background-color: transparent;
     position: relative;
     left: 26%;
+}
+
+.logtodos{
+    left: 20%;
 }
 
 /*Boton login de administrador*/
@@ -109,20 +109,7 @@
     width: 13%;
     height: 35px;
     margin-top: -4%;
-    margin-right: 4.5%;
-    /* width: 13%;
-    height: 41px;
-    background-color: var(--background-color3);
-    padding: 1.2rem 2rem;
-    font-weight: 400;
-    font-size: 16px;
-    color: var(--text-color);
-    border: none;
-    margin-left: 78%; */
-    /* margin-right: 16px; */
-    /* margin-top: 6%;
-    position: absolute;
-    top: 7%; */
+    margin-right: 5.5%;
 }
 
 /*Boton contacto*/
@@ -168,7 +155,7 @@
     .logtodos {
         width: 166px;
         height: 40px;
-        margin-left: -45%;
+        margin-left: -40%;
     }
 
     .btn-menu-adm {
@@ -188,7 +175,7 @@
 
     .btn-add-producto {
         width: 19%;
-        height: 4vh;
+        height: 6vh;
         padding: 1.2rem 3.4rem;
         margin-left: 80%;
         margin-top: 5.5%;
@@ -234,11 +221,11 @@
         margin-left: 75.5%;
         margin-top: 5%;
         position: absolute;
-        top: 8%;
+        top: 9vh;
     }
 
     .logtodos {
-        margin-left: -45%;
+        margin-left: -39%;
     }
 
 }
@@ -274,7 +261,7 @@
         width: 34%;
         /* height: 40px; */
         padding: 0.7rem 1.3rem;
-        margin-left: 63.5%;
+        margin-left: 62.5%;
         margin-top: 4.5%;
         font-size: 14px;
         position: absolute;
@@ -328,7 +315,7 @@
         width: 39%;
         height: 30px;
         padding: 0.7rem 1.3rem;
-        margin-left: 57.5%;
+        margin-left: 58%;
         margin-top: 4.5%;
         font-size: 14px;
         position: absolute;
@@ -340,10 +327,64 @@
     }
 
     .logtodos {
-        margin-left: -25%;
+        margin-left: -18%;
         font-size: 1.6rem;
         width: 25vh;
+        height: 4vh;
+    }
+
+}
+@media (max-width:350px) {
+    .banner__btn {
+        font-size: 1.4rem;
+        width: 19vh;
+        height: 4.5vh;
+        margin-left: -88%;
+        padding: 4px 8px;
+        margin-top: -5%;
+    }
+
+    .btn-login {
+        width: 120px;
+        height: 24px;
+        margin-left: -28%;
+        margin-top: -3%;
+    }
+
+    .btn-menu-adm {
+        margin-left: -21%;
+        width: 26vh;
         height: 6vh;
+        font-size: 1.3rem;
+    }
+
+    /*Boton agregar nuevo producto*/
+    .add-btn,
+    .edit-btn {
+        width: 105%;
+        margin-left: -7%;
+    }
+
+    .btn-add-producto {
+        width: 36%;
+        height: 30px;
+        padding: 0.7rem 1.3rem;
+        margin-left: 61%;
+        margin-top: 4.5%;
+        font-size: 12px;
+        position: absolute;
+        top: 11.5%;
+    }
+
+    .loginerror {
+        margin-left: -24%;
+    }
+
+    .logtodos {
+        margin-left: -18%;
+        font-size: 1.6rem;
+        width: 22vh;
+        height: 4vh;
     }
 
 }
