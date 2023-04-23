@@ -338,10 +338,10 @@
 @media (max-width:360px) {
     .banner__btn {
         font-size: 1.6rem;
-        width: 16vh;
+        width: 14vh;
         height: 4vh;
         margin-left: -81%;
-        padding: 6px 4px;
+        padding: 6vh 4vh;
         /* margin-top: -5%; */
     }
 
