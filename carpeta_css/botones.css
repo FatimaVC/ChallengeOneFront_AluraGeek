@@ -281,68 +281,13 @@
 
 }
 
-@media (max-width:375px) {
+@media (max-width:360px) {
     .banner__btn {
         font-size: 1.4rem;
         width: 19vh;
-        height: 4.5vh;
-        margin-left: -75%;
-        padding: 4px 8px;
-        margin-top: -2%;
-    }
-
-    .btn-login {
-        width: 142px;
-        height: 31px;
-        margin-left: -25%;
-    }
-
-    .btn-menu-adm {
-        margin-left: -21%;
-        width: 26vh;
-        height: 6vh;
-        font-size: 1.3rem;
-    }
-
-    /*Boton agregar nuevo producto*/
-    .add-btn,
-    .edit-btn {
-        width: 105%;
-        margin-left: -7%;
-    }
-
-    .btn-add-producto {
-        width: 39%;
-        height: 30px;
-        padding: 0.7rem 1.3rem;
-        margin-left: 58%;
-        margin-top: 4.5%;
-        font-size: 14px;
-        position: absolute;
-        top: 11.5%;
-    }
-
-    .loginerror {
-        margin-left: -24%;
-    }
-
-    .logtodos {
-        margin-left: -18%;
-        font-size: 1.6rem;
-        width: 25vh;
-        height: 4vh;
-    }
-
-}
-
-@media (max-width:360px) {
-    .banner__btn {
-        font-size: 1.6rem;
-        width: 13.5vh;
         height: 4vh;
         margin-left: -81%;
-        padding: 6vh 4vh;
-        /* margin-top: -5%; */
+        padding: 1vh 4vh;
     }
 
     .btn-login {
