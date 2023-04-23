@@ -318,12 +318,12 @@
     }
 
     .info__encabezado-r {
-        margin-left: -4%;
+        margin-left: -0%;
         margin-top: -1%;
     }
 
     .info__encabezado-r p {
-        margin-left: -8%;
+        margin-left: -4%;
         font-size: 1.6rem;
     }
 
@@ -334,8 +334,8 @@
     .arrow-icon {
         /* margin-right: 1vh; */
         position: relative;
-        top: -3vh;
-        left: -22%;
+        top: -6vh;
+        left: -18%;
     }
 
     .cards-container {
