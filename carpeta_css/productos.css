@@ -323,19 +323,19 @@
     }
 
     .info__encabezado-r p {
-        margin-left: -4%;
+        margin-right: -9%;
         font-size: 1.6rem;
     }
 
     .star_wars__head__boton {
-        margin-top: -.5vh;
+        margin-top: -1vh;
     }
 
     .arrow-icon {
         /* margin-right: 1vh; */
         position: relative;
-        top: -6vh;
-        left: -18%;
+        top: -5.5vh;
+        left: 18%;
     }
 
     .cards-container {
