@@ -220,7 +220,7 @@
         margin-top: -1%;
     }
 
-  
+
     .info__encabezado-r p {
         margin-left: -8%;
         font-size: 1.6rem;
@@ -261,7 +261,7 @@
         margin-left: 6vh;
         margin-top: .1%;
     }
-    
+
     .info__encabezado {
         margin-top: 5%;
     }
@@ -271,7 +271,7 @@
         margin-top: -1%;
     }
 
-  
+
     .info__encabezado-r p {
         margin-left: -8%;
         font-size: 1.6rem;
@@ -308,11 +308,13 @@
 
 @media (max-width: 360px) {
     .productos__head__titulo-principal {
-        margin-left: 5.5vh;
+        margin-left: 4vh;
         margin-top: .8%;
 
     }
+
     .info__encabezado {
+        margin-left: 2.5%;
         margin-top: 5%;
     }
 
@@ -326,8 +328,15 @@
         font-size: 1.6rem;
     }
 
+    .star_wars__head__boton {
+        margin-top: -.5vh;
+    }
+
     .arrow-icon {
-        margin-right: 1vh;
+        /* margin-right: 1vh; */
+        position: relative;
+        top: -6vh;
+        left: -22%;
     }
 
     .cards-container {
