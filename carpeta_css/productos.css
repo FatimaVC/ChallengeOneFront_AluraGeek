@@ -281,6 +281,39 @@
     }
 }
 
+@media (max-width: 360px) {
+    .productos__head__titulo-principal {
+        margin-left: 6.5vh;
+        margin-top: 1%;
+    }
+
+    .info__encabezado-r p {
+        margin-left: -21%;
+    }
+
+    .arrow-icon {
+        margin-right: -.2vh;
+    }
+
+    .cards-container {
+        margin-left: 10.5%;
+        gap: 18px 10px;
+    }
+
+    .img-producto {
+        width: 142px;
+        height: 150px;
+    }
+
+    .cart-price {
+        margin-top: -3%;
+    }
+
+    .shopping-cart a {
+        font-size: 1.4rem;
+    }
+}
+
 @media (max-width: 350px) {
     .productos__head__titulo-principal {
         margin-left: 5vh;

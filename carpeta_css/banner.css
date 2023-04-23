@@ -109,6 +109,21 @@
     }
 }
 
+@media (max-width:360px) {
+
+    .banner__title {
+        font-size: 22px;
+        line-height: 8px;
+        margin-left: -81%;
+    }
+
+    .banner__subtitle {
+        font-size: 13.5px;
+        margin-left: -81%;
+        margin-top: -2%;
+    }
+}
+
 @media (max-width:350px) {
 
     .banner__title {

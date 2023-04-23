@@ -303,6 +303,67 @@
     margin-right: 3%;
   }
 }
+
+@media (max-width: 360px) {
+  .logoindex {
+    width: 120px;
+    height: 40px;
+    margin-left: -3%;
+  }
+
+  .addlogo {
+    width: 120px;
+    height: 40px;
+    margin-left: 10%;
+  }
+
+  .logosearch,
+  .logotodos {
+    width: 120px;
+    height: 40px;
+    margin-left: 2%;
+  }
+  
+  .logoadmi{
+    width: 130px;
+    height: 40px;
+    margin-left: -3%;
+  }
+
+  .logohome {
+    width: 130px;
+    height: 40px;
+    margin-left: -1%;
+  }
+
+  .logo-ver {
+    width: 130px;
+    height: 40px;
+    margin-left: -8%;
+  }
+
+  .logo-error {
+    width: 130px;
+    height: 40px;
+    margin-left: -1%;
+  }
+
+  .header-nav {
+    width: 100%;
+    padding: 16px;
+  }
+
+  .header-input-container {
+    display: none;
+  }
+
+  .search-icon-mobile {
+    display: block;
+    margin-right: 3%;
+    margin-top: -1.5%;
+  }
+}
+
 @media (max-width: 350px) {
   .logoindex {
     width: 120px;
