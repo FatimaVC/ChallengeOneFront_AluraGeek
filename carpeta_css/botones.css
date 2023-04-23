@@ -337,12 +337,12 @@
 
 @media (max-width:360px) {
     .banner__btn {
-        font-size: 1.4rem;
-        width: 19vh;
-        height: 4.5vh;
+        font-size: 1.2rem;
+        width: 16vh;
+        height: 2.5vh;
         margin-left: -81%;
         padding: 4px 8px;
-        margin-top: -5%;
+        /* margin-top: -5%; */
     }
 
     .btn-login {

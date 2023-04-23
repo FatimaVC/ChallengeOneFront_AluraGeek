@@ -283,8 +283,13 @@
 
 @media (max-width: 360px) {
     .productos__head__titulo-principal {
-        margin-left: 6.5vh;
-        margin-top: 1%;
+        margin-left: 6vh;
+        margin-top: .8%;
+    }
+
+    .info__encabezado {
+        margin-top: 5%;
+        margin-left: 0%;
     }
 
     .info__encabezado-r p {
@@ -292,16 +297,16 @@
     }
 
     .arrow-icon {
-        margin-right: -.2vh;
+        margin-right: -1vh;
     }
 
     .cards-container {
-        margin-left: 10.5%;
+        margin-left: 10%;
         gap: 18px 10px;
     }
 
     .img-producto {
-        width: 142px;
+        width: 145px;
         height: 150px;
     }
 
