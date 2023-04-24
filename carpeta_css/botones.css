@@ -372,7 +372,7 @@
         margin-top: 4.5%;
         font-size: 12px;
         position: absolute;
-        top: 5%;
+        top: 10%;
     }
 
     .loginerror {
@@ -388,8 +388,8 @@
 
     .logotodos {
         margin-left: -25%;
-        font-size: 1.5rem;
-        width: 21.5vh;
+        font-size: 1.3rem;
+        width: 18vh;
         height: 4vh;
     }
 
