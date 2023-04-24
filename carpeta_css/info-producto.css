@@ -413,6 +413,15 @@
     font-size: 1.6rem;
   }
 
+  .productos-relacionados {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 120vh;
+    /* margin-bottom: -85%; */
+    margin-top: -9%;
+  }
+
   .cards-container {
     gap: 5vh 2vh;
     margin-left: 4%;
@@ -431,14 +440,14 @@
     font-size: 1.2rem;
   }
 
-  .contacto {
+  .continfo {
     display: flex;
     flex-direction: column;
     padding: 4px;
     align-items: center;
     gap: 32px;
     height: 623px;
-    margin-top: 75%;
+    margin-top: 62%;
   }
 }
 

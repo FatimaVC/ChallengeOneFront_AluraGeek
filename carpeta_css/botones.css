@@ -338,10 +338,10 @@
 @media (max-width:360px) {
     .banner__btn {
         font-size: 1.4rem;
-        width: 21vh;
-        height: 4vh;
+        width: 25vh;
+        height: 4.5vh;
         margin-left: -81%;
-        padding: 1vh 4vh;
+        padding: 1vh 4.5vh;
     }
 
     .btn-login {
@@ -381,10 +381,10 @@
     }
 
     .logtodos {
-        margin-left: -18%;
-        font-size: 1.6rem;
-        width: 20vh;
-        height: 4vh;
+        margin-left: -15%;
+        font-size: 1.5rem;
+        width: 18vh;
+        height: 4.5vh;
     }
 
     .logotodos {
