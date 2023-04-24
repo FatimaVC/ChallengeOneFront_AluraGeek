@@ -364,7 +364,7 @@
 
 }
   
-@media (max-width: 425px) {
+@media (max-width: 375px) {
   .info-detalle {
     background-color: #f5f5f5;
     padding-top: 1.5rem;
