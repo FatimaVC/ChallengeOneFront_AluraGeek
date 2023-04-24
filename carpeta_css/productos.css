@@ -308,7 +308,7 @@
 
 @media (max-width: 360px) {
     .productos__head__titulo-principal {
-        margin-left: 2.5vh;
+        margin-left: 3vh;
         margin-top: .8%;
     }
 
@@ -318,7 +318,7 @@
     }
 
     .infoencabezado{
-        margin-left: 3.5%;
+        margin-left: 3%;
     }  
 
     .info__encabezado-r {
