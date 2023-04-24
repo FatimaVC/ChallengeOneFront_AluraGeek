@@ -360,8 +360,8 @@
     /*Boton agregar nuevo producto*/
     .add-btn,
     .edit-btn {
-        width: 100%;
-        margin-left: -3%;
+        width: 101.5%;
+        margin-left: -3.5%;
     }
 
     .btn-add-producto {
