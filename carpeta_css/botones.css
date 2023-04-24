@@ -352,7 +352,7 @@
 
     .btn-menu-adm {
         margin-left: -18%;
-        width: 22vh;
+        width: 20vh;
         height: 6vh;
         font-size: 1.1rem;
     }
@@ -372,7 +372,7 @@
         margin-top: 4.5%;
         font-size: 12px;
         position: absolute;
-        top: 11%;
+        top: 5%;
     }
 
     .loginerror {
