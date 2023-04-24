@@ -673,7 +673,7 @@
     align-items: center;
     gap: 32px;
     height: 623px;
-    margin-top: 140%;
+    margin-top: 45%;
   }
 
   .logo-index {
@@ -770,16 +770,6 @@
     align-items: center;
     gap: 32px;
     height: 623px;
-  }
-
-  .continfo{
-    display: flex;
-    flex-direction: column;
-    padding: 4px;
-    align-items: center;
-    gap: 32px;
-    height: 623px;
-    margin-top: 140%;
   }
 
   .logo-index {
