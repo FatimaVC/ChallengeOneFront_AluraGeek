@@ -318,7 +318,7 @@
     }
 
     .infoencabezado{
-        margin-left: -1%;
+        margin-left: -5%;
         margin-top: 16%;
       }
 
@@ -367,6 +367,11 @@
         margin-left: 5vh;
         margin-top: 1%;
     }
+
+    .infoencabezado{
+        margin-left: -5%;
+        margin-top: 16%;
+      }
 
     .info__encabezado-r p {
         margin-left: -21%;
