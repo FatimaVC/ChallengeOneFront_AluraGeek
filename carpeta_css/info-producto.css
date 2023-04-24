@@ -474,9 +474,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    height: 105vh;
+    height: 120vh;
     margin-bottom: -75%;
-    /* margin-top: -9%; */
   }
 
   .productos-contenedor {
