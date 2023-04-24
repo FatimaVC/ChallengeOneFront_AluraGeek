@@ -317,10 +317,9 @@
         margin-top: 5%;
     }
 
-    /* .infoencabezado{
-        margin-left: 2%;
-        margin-top: 16%;
-      } */
+    .infoencabezado{
+        margin-left: -.5%;
+    } 
 
     .info__encabezado-r {
         margin-left: -0%;

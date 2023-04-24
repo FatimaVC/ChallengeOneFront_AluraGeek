@@ -417,9 +417,17 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    height: 145vh;
+    height: 125vh;
     /* margin-bottom: -85%; */
-    margin-top: -22%;
+    margin-top: -14%;
+  }
+
+  .productos-contenedor {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    padding: 7px;
+    margin-bottom: -5%;
   }
 
   .cards-container {
