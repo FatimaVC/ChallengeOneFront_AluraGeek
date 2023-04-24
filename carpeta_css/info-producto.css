@@ -417,7 +417,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    height: 70vh;
+    height: 75vh;
     /* margin-bottom: -85%; */
     margin-top: -9%;
   }
